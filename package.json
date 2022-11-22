@@ -1,5 +1,5 @@
 {
-  "name": "@dmc/plus",
+  "name": "@jan23/plus",
   "version": "0.0.2",
   "description": "",
   "main": "lib/index.esm.js",
@@ -10,7 +10,7 @@
     "name": "jan23",
     "email": "makeinchina233@gmail.com"
   },
-  "repository": "/@dmc/plus",
+  "repository": "/@jan23/plus",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",

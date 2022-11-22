@@ -1,30 +1,12 @@
-# vue-general-components
+# dmc-plus
 
 > 基于 vuepress 文档的 vue 组件快速开发方案
 
 ## 项目背景
 
-在日常开发中，我们经常会在项目中写很多组件，有些是通用的有些是非常业务的，而一些优秀的组件会随着项目结项而`封印`；而不会说提炼成对应的 npm 仓库；社区上有很多优秀的 ui 库比如，[element-ui](https://element.eleme.cn/)、[ant-design-vue](https://antdv.com/docs/vue/introduce-cn/)等，又无法加入自己的组件到其中，也无法魔改他们的组件。所以 一个简单快速的开发 vue 组件的项目 vue-general-components 就这么诞生了；
+在日常开发中,多个项目里面的部分UI组件都是重复工作,多套维护反而不美,故集于一身
 
-## 项目安装
-
-利用脚手架安装
-
-```
-mkdir <project-name>
-
-# 或 npx create-vgc
-yarn create vgc
-
-# 或 npm install
-yarn install
-```
-
-> vgc 即 vue-general-components
-
-或者直接 fork [vgc 项目](https://github.com/xxholly32/vue-general-components)
-
-生成包含以下功能
+## 项目介绍
 
 - [x] hello-world 组件
 - [x] 组件 api 文档系统
@@ -98,14 +80,6 @@ export default {
   ]
 }
 ```
-
-## 组件文档
-
-文档系统引入 vue 官方的 vuepress，用起来也最顺手，主要还是因为 vuepress 支持 md 和其内置的一些周边，代码展示，emoji 等也不用再单独引入，直接有内置；
-
-我加入了自己的一个插件 [vuepress-plugin-code-box](https://xxholly32.github.io/vuepress-plugin-code-box/guide/)，支持代码的隐藏可让展现方式多样化。antd 和 elementui 都有类似。
-
-vuepress 默认的 dev 和 build 功能也支持，如果你想发布到 pages 上可以查看 [vuepress 部署文档](https://vuepress.vuejs.org/zh/guide/deploy.html#%E9%83%A8%E7%BD%B2)
 
 ## 组件打包
 

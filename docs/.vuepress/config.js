@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: "@dmc/plus",
+  title: "@jan23/plus",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
