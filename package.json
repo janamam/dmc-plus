@@ -1,13 +1,13 @@
 {
   "name": "@dmc/plus",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "lib/index.esm.js",
   "files": [
     "lib"
   ],
   "authors": {
-    "name": "jan",
+    "name": "jan23",
     "email": "makeinchina233@gmail.com"
   },
   "repository": "/@dmc/plus",
@@ -61,6 +61,10 @@
     "vue-jest": "^3.0.5",
     "vuepress": "^1.3.1",
     "vuepress-plugin-code-box": "^0.0.4"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "browserslist": [
     "defaults"
