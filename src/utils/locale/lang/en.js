@@ -1,7 +1,7 @@
-import helloworld from "../../../../packages/HelloWorld/lang/en"
+// import helloworld from "../../../../packages/HelloWorld/lang/en"
 
 export default {
-  vgc: {
-    helloworld,
-  },
+  // vgc: {
+  //   helloworld,
+  // },
 };
