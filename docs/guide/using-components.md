@@ -3,14 +3,14 @@
 ## 安装
 
 ```bash
-yarn add dmc-plus
+yarn add @dmc/plus
 ```
 
 在 main.js 中写入以下内容：
 
 ```js
-import vgc from "dmc-plus";
-import "dmc-plus/lib/index.css";
+import vgc from "@dmc/plus";
+import "@dmc/plus/lib/index.css";
 
 Vue.use(vgc);
 ```
